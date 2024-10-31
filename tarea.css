@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+    margin: 2px;
+    box-sizing: border-box; 
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 900;
+    background-color:#AAB2B9;
+  }
+
+ .h1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    font-weight: 900;
+    background-color:#AAB2B9;
+
+  }
+ .element {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+ }
+ .image {
+    width: 400px;
+    height: auto;
+ }
+ .pestaña {
+    margin: 5px;
+    padding: 5px;
+    background-color: #AAB2B9;
+    border: 3px solid #252729;
+ }
+ .tab-content {
+    display: none;
+ }
+
+.fuga {
+    animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
